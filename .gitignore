@@ -1,0 +1,6 @@
+logs/
+__pycache__/
+.env
+.ipynb_checkpoints
+.DS_Store
+powerbi_dashboard/
