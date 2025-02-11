@@ -32,7 +32,7 @@ def api_to_s3():
     size = 1000
     offset = 0
     while True:
-        url = f"https://data.cms.gov/data-api/v1/dataset/7e0d53ba-8f02-4c66-98a5-14a1c997c50d/data?size={size}&offset={offset}"
+        url = f"https://data.cms.gov/data-api/v1/dataset/dcc467d8-5792-4e5d-95be-04bf9fc930a1/data?size={size}&offset={offset}"
 
         response = requests.get(url)
 
