@@ -23,6 +23,17 @@ The analysis was supplemented by an interactive **Power BI dashboard** to visual
 
 ![Flow Chart](img/Flow_Chart.jpeg)
 
+In this project, I designed and implemented a scalable ETL (Extract, Transform, Load) pipeline to process and analyze Payroll-Based Journal (PBJ) Daily Nurse Staffing data (2024-Q2). The pipeline automates data ingestion, transformation, and storage, ensuring efficient processing and accessibility for further analysis.
+### Pipeline Overview
+1. Containerization: To create a reproducible and scalable workflow, I deployed Apache Airflow in a Docker container for workflow orchestration. 
+
+2. Data Ingestion: The pipeline automatically retrieves PBJ staffing data in JSON format using Python and API requests, eliminating manual downloads and ensuring up-to-date records.
+
+3. Data Transformation: The raw JSON data is parsed, cleaned, and structured to standardize formats, handle missing values, and convert data types. Additionally, I transformed the original table into a Star Schema design to optimize analytical queries.
+
+4. Data Storage: The processed data is stored in Amazon S3 as partitioned Parquet files.
+
+5. Data Loading and Analytics: The processed data is loaded into Amazon Redshift, enabling efficient SQL-based analysis of staffing trends and workforce distribution across Medicare providers. 
 ## Technology Used
 
 **Programming Languages**
