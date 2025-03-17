@@ -1,5 +1,5 @@
 # Nurse Staffing Data Pipeline and Insights for 2024-Q2 Payroll Based Journal
-
+Here is the [Optimized Data Pipeline](https://github.com/jingyil66/nurse-staffing-data-pipeline)
 ## Table of Contents
 
 - [Project Overview](#project-overview)
